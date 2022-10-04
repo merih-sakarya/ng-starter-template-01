@@ -1,0 +1,59 @@
+.layout-default {
+  height: 100%;
+
+  &__header {
+
+    color: #fff;
+    padding: 0px 24px;
+    background: linear-gradient(90deg, rgba(8,227,5,1) 0%, rgba(8,173,191,1) 50%, rgba(39,8,205,1) 100%);
+
+    .header {
+
+      &__logo {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 800;
+        margin-top: 2px;
+        cursor: pointer;
+      }
+
+      &__menu--left {
+        display: inline-block;
+
+        .ant-menu-item {
+          &:hover {
+            background-color: #4a5067 !important;
+          }
+        }
+      }
+
+      &__menu--right {
+        float: right;
+        margin-top: 2px;
+
+        .ant-dropdown-trigger {
+          cursor: pointer;
+        }
+      }
+
+      &__icon {
+        margin: 0 8px;
+        cursor: pointer;
+        
+        i {
+          font-size: 20px;
+        }
+      }
+  
+      &__divider {
+        height: 22px;
+        margin-bottom: 4px;
+        background: #fff;
+      }
+    }
+  }
+
+  &__content {
+    padding: 32px 48px;
+  }
+}

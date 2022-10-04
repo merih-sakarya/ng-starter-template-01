@@ -1,0 +1,25 @@
+<div class="pg-login">
+  <div class="pg-login__box">
+    <form nz-form [formGroup]="loginForm" nzLayout="vertical" (ngSubmit)="onFormSubmit()">
+      <nz-form-item>
+        <nz-form-label nzFor="email">Email</nz-form-label>
+        <nz-form-control>
+          <input data-test="login-username" nz-input type="email" nzSize="large" formControlName="email" placeholder="Email" />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label nzFor="password">Password</nz-form-label>
+        <nz-form-control>
+          <input data-test="login-password" nz-input type="password" nzSize="large" formControlName="password" placeholder="Password" />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control>
+          <button data-test="login-submit" nz-button nzSize="large" nzType="primary" nzBlock>Login</button>
+        </nz-form-control>
+      </nz-form-item>
+    </form>
+  </div>
+</div>

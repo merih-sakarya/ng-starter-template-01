@@ -1,0 +1,9 @@
+.tnt-alert {
+  &--on {
+    color: $success-color;
+  }
+
+  &--off {
+    color: $danger-color;
+  }
+}

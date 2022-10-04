@@ -1,0 +1,24 @@
+# Compiled output
+/dist
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Visual Studio Code
+.vscode/*
+.history/*
+
+# Cypress
+/cypress/*
+
+# Miscellaneous
+/.angular/*
+.sass-cache/*
+/.husky/*
+.eslintrc.json
+
+# System files
+.DS_Store
+Thumbs.db

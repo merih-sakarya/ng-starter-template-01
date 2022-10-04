@@ -1,0 +1,27 @@
+<div class="header">
+  <div class="header__logo" [routerLink]="['/']">LOGO</div>
+
+  <div class="header__menu--left"></div>
+
+  <div class="header__menu--right">
+    <span class="header__icon" [routerLink]="['/notifications']">
+      <i nz-icon nzType="bell" nzTheme="outline"></i>
+    </span>
+
+    <nz-divider class="header__divider" nzType="vertical"></nz-divider>
+
+    <span data-test="header-menu" nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu">
+      <span class="header__icon">
+        <i nz-icon nzType="user" nzTheme="outline"></i>
+      </span>
+      merih.sakarya@domain.com <i nz-icon nzType="down"></i>
+    </span>
+    <nz-dropdown-menu #menu="nzDropdownMenu">
+      <ul nz-menu>
+        <li nz-menu-item [routerLink]="['/settings']" nzDisabled>Settings</li>
+        <li nz-menu-divider></li>
+        <li data-test="header-logout" nz-menu-item (click)="logout()">Logout</li>
+      </ul>
+    </nz-dropdown-menu>
+  </div>
+</div>

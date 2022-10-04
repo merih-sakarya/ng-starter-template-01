@@ -1,0 +1,11 @@
+{
+  "files.insertFinalNewline": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "[scss]": {
+    "editor.formatOnSave": false
+  },
+  "html.format.wrapLineLength": 140
+}
