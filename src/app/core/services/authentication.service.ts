@@ -50,8 +50,7 @@ export class AuthenticationService {
   }
 
   isLoggedIn(): boolean {
-    // TODO: In this section, checks such as whether there is a token
-    // and whether the token is still valid should be made.
+    // TODO: Check if the token exists and is valid.
     if (AuthContextUtil.getAuthContext()) {
       return true;
     }

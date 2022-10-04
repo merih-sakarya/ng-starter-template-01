@@ -22,7 +22,8 @@ export class SetupService {
       const authContext = AuthContextUtil.getAuthContext();
 
       // TODO: Create a strategy according to your authentication structure.
-      // For example, If there is no token, logout the user. Or if the token has expired, refresh the token or log out the user )
+      // For example, If there is no token, redirect user to login page.
+      // Or if the token has expired, refresh the token or log out the user.
       if (!authContext) {
         this.authenticationService.logout();
       }
