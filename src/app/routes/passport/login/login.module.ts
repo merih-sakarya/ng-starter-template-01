@@ -15,7 +15,6 @@ const routes: Routes = [
 @NgModule({
   declarations: [LoginComponent],
   imports: [
-    // prettier-ignore
     CommonModule,
     SharedModule,
     RouterModule.forChild(routes)

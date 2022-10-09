@@ -15,10 +15,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [NotificationComponent],
   imports: [
-    // prettier-ignore
     CommonModule,
     SharedModule,
-    RouterModule.forChild(routes)
-  ]
+    RouterModule.forChild(routes)]
 })
 export class NotificationModule {}
