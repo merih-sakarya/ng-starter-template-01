@@ -1,6 +1,6 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.detectIndentation": true,
   "files.insertFinalNewline": true,
@@ -12,7 +12,7 @@
     "editor.defaultFormatter": "stylelint.vscode-stylelint",
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll": false
+    "source.fixAll": true
   },
   "stylelint.validate": ["css", "less", "scss"]
 }

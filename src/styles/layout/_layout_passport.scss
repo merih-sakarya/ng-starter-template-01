@@ -2,8 +2,8 @@
   height: 100%;
 
   &__content {
-    background: rgb(56, 47, 209);
-    background: linear-gradient(90deg, rgba(8, 227, 5, 1) 0%, rgba(8, 173, 191, 1) 50%, rgba(39, 8, 205, 1) 100%);
+    background: rgb(56 47 209);
+    background: linear-gradient(90deg, rgb(8 227 5 / 100%) 0%, rgb(8 173 191 / 100%) 50%, rgb(39 8 205 / 100%) 100%);
 
     > div {
       height: 100%;
