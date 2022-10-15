@@ -3,9 +3,10 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
+  "editor.tabSize": 2,
   "editor.detectIndentation": true,
   "[scss]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "html.format.wrapLineLength": 140
 }

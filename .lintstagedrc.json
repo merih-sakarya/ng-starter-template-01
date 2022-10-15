@@ -5,5 +5,8 @@
   "**/*.{js,ts}": [
     "prettier --write",
     "eslint"
+  ],
+  "**/*.scss": [
+    "prettier --write"
   ]
 }

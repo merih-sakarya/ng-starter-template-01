@@ -1,16 +1,16 @@
 .pg-home {
-    height: 100%;
-    
-    &__content {
-        height: 100%;
-        text-align: center;
+  height: 100%;
 
-        .tech {
-            &__plus {
-                font-size: 30px;
-                color: #aaa;
-                margin: 0 20px;
-            }
-        }
+  &__content {
+    height: 100%;
+    text-align: center;
+
+    .tech {
+      &__plus {
+        font-size: 30px;
+        color: #aaa;
+        margin: 0 20px;
+      }
     }
+  }
 }

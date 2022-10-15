@@ -2,13 +2,11 @@
   height: 100%;
 
   &__header {
-
     color: #fff;
     padding: 0px 24px;
-    background: linear-gradient(90deg, rgba(8,227,5,1) 0%, rgba(8,173,191,1) 50%, rgba(39,8,205,1) 100%);
+    background: linear-gradient(90deg, rgba(8, 227, 5, 1) 0%, rgba(8, 173, 191, 1) 50%, rgba(39, 8, 205, 1) 100%);
 
     .header {
-
       &__logo {
         display: inline-block;
         font-size: 16px;
@@ -29,12 +27,12 @@
       &__icon {
         margin: 0 8px;
         cursor: pointer;
-        
+
         i {
           font-size: 20px;
         }
       }
-  
+
       &__divider {
         height: 22px;
         margin-bottom: 4px;
