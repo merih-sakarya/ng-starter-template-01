@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 npx lint-staged --config .lintstagedrc.json
-# npm run test:ci // Mostly we run the tests in the CI step.
+# npm run test:ci # Mostly we run the tests in the CI step.

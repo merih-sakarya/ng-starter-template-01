@@ -7,6 +7,6 @@
     "eslint"
   ],
   "**/*.scss": [
-    "prettier --write"
+    "stylelint --fix"
   ]
 }
