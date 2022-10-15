@@ -17,16 +17,6 @@
         cursor: pointer;
       }
 
-      &__menu--left {
-        display: inline-block;
-
-        .ant-menu-item {
-          &:hover {
-            background-color: #4a5067 !important;
-          }
-        }
-      }
-
       &__menu--right {
         float: right;
         margin-top: 2px;
