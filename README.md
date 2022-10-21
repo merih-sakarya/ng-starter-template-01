@@ -9,6 +9,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
+![Screenshot](https://github.com/merih-sakarya/ng-starter-template-01/blob/master/src/assets/images/screen-record.gif)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -151,6 +153,30 @@ sass/
     <button class="search-form__button">Search</button>
 </form>
 ```
+
+**[NG-ZORRO](https://ng.ant.design)** is used as **UI library**. [NG-ZORRO](https://ng.ant.design) is an Angular UI library that is based on the [Ant Design System](https://ant.design) used by Alibaba.
+
+Features#
+
+- An enterprise-class UI design language for Angular applications.
+- 60+ high-quality Angular components out of the box.
+- Written in TypeScript with complete defined types.
+- Support OnPush mode, high performance.
+- Powerful theme customization in every detail.
+- Internationalization support for dozens of languages.
+
+**[NG-ZORRO Grid Layout](https://ng.ant.design/components/grid/en)** is used as **grid layout**. Layout uses a 24 grid layout to define the width of each "box".
+
+Following is a brief look at how it works:
+
+- Establish a set of `column` in the horizontal space defined by `row` (abbreviated col)
+- Your content elements should be placed directly in the `col`, and only `col` should be placed directly in `row`
+- The column grid system is a value of 1-24 to represent its range spans. For example, three columns of equal width can be created by `<div nz-col [nzSpan]="8" />`.
+- If the sum of `col` spans in a `row` are more than 24, then the overflowing `col` as a whole will start a new line arrangement.
+
+The grid systems base on Flex layout to allow the elements within the parent to be aligned horizontally - left, center, right, wide arrangement, and decentralized arrangement. The Grid system also supports vertical alignment - top aligned, vertically centered, bottom-aligned. You can also define the order of elements by using `order`.
+
+**[Stylelint](https://stylelint.io)** is a mighty, modern linter that helps you avoid errors and enforce conventions in your styles. Please see **[stylelint-integration](https://github.com/merih-sakarya/ng-starter-template-01/tree/stylelint-integration)** branch and **[pull request](https://github.com/merih-sakarya/ng-starter-template-01/pull/1)** for more information.
 
 ## Build
 
