@@ -1,12 +1,18 @@
 {
-  "files.insertFinalNewline": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
-  "editor.tabSize": 2,
   "editor.detectIndentation": true,
+  "files.insertFinalNewline": true,
+  "html.format.wrapLineLength": 140,
   "[scss]": {
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
   },
-  "html.format.wrapLineLength": 140
+  "[less]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "stylelint.validate": ["css", "less", "scss"]
 }
